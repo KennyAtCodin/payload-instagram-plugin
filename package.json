@@ -79,8 +79,5 @@
       "mongodb-memory-server",
       "sharp"
     ]
-  },
-  "dependencies": {
-    "instagram-graph-api": "^7.0.0"
   }
 }
