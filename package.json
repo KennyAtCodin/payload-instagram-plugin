@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "dev": "cd dev && cross-env NODE_OPTIONS=--no-deprecation PAYLOAD_DROP_DATABASE='true' next dev --turbo --experimental-https",
-    "build": "tsc",
+    "build": "cd dev && cross-env NODE_OPTIONS=--no-deprecation next build",
     "test": "cd test && jest --config=./jest.config.js",
     "test:e2e": "cross-env NODE_OPTIONS=--no-deprecation NODE_NO_WARNINGS=1 tsx ./test/runE2E.ts",
     "lint": "eslint src",
@@ -79,5 +79,8 @@
       "mongodb-memory-server",
       "sharp"
     ]
+  },
+  "dependencies": {
+    "instagram-graph-api": "^7.0.0"
   }
 }

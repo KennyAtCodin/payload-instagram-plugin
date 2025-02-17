@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      instagram-graph-api:
+        specifier: ^7.0.0
+        version: 7.0.0
     devDependencies:
       '@payloadcms/db-mongodb':
         specifier: v3.23.0
@@ -2536,6 +2540,9 @@ packages:
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
+
+  instagram-graph-api@7.0.0:
+    resolution: {integrity: sha512-KZMdYOdPEiPCdB6NhfsAPmeqy9wvs4L+Vog9o0uA/3i8nHF8vURCVpHaerJ99Sd9AOpMRdy9HV9g0cL1QSUEZg==}
 
   internal-slot@1.1.0:
     resolution: {integrity: sha512-4gd7VpWNQNB4UKKCFFVcp1AVv+FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804/yHlglp3uxgluOqAPLw==}
@@ -7234,6 +7241,8 @@ snapshots:
       wrappy: 1.0.2
 
   inherits@2.0.4: {}
+
+  instagram-graph-api@7.0.0: {}
 
   internal-slot@1.1.0:
     dependencies:
